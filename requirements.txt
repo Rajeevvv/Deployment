@@ -3,4 +3,4 @@ streamlit
 pickle-mixin
 scikit-learn
 nltk==3.6
-
+pytest
