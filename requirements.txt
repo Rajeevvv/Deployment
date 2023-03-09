@@ -3,3 +3,5 @@ streamlit
 pickle-mixin
 scikit-learn
 nltk
+nltk.download('punkt')
+nltk.download('stopwords')
