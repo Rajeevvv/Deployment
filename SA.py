@@ -47,8 +47,8 @@ def rem(text):
   return ' '.join(filtered_words)
 
 
-vectorizer = pickle.load(open('C:/Users/user/Desktop/Stuff/Project/tf_idf_model.pkl','rb'))
-model = pickle.load(open('C:/Users/user/Desktop/Stuff/Project/mnb_model.plk','rb'))
+vectorizer = pickle.load(open('tf_idf_model.pkl','rb'))
+model = pickle.load(open('mnb_model.plk','rb'))
 
 if st.button('Analyze'):
 
